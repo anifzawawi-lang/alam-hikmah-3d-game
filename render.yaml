@@ -1,0 +1,14 @@
+# Deploy as one Render Web Service so WebSocket /ws and static assets share a domain.
+services:
+  - type: web
+    name: alam-hikmah-3d-game
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: npm install --omit=dev
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+    autoDeployTrigger: commit

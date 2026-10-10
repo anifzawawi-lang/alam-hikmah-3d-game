@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Atiqah",
+    "icon": "🦉",
+    "role": "Ahli Strategi",
+    "color": "#a49cff",
+    "str": 6,
+    "agi": 7,
+    "power": 10,
+    "skill": "Bintang Hikmah",
+    "desc": "Serangan bintang mengenai beberapa musuh, sambil memulihkan nyawa sendiri.",
+    "type": "chain"
+  },
+  {
+    "name": "Aisya",
+    "icon": "🦋",
+    "role": "Penjelajah Pantas",
+    "color": "#fda3df",
+    "str": 5,
+    "agi": 10,
+    "power": 7,
+    "skill": "Luncur Pelangi",
+    "desc": "Meluncur ke depan dengan pantas dan menghentam musuh berdekatan.",
+    "type": "dash"
+  },
+  {
+    "name": "Ammar",
+    "icon": "🦁",
+    "role": "Pahlawan Gagah",
+    "color": "#fdb35b",
+    "str": 10,
+    "agi": 5,
+    "power": 6,
+    "skill": "Gegaran Bumi",
+    "desc": "Hentakan kuat secara bulatan yang mencederakan dan memperlahankan musuh.",
+    "type": "slam"
+  },
+  {
+    "name": "Alisha",
+    "icon": "🦄",
+    "role": "Pelindung Cahaya",
+    "color": "#f6a5b9",
+    "str": 6,
+    "agi": 6,
+    "power": 9,
+    "skill": "Perisai Kristal",
+    "desc": "Memulihkan HP dan mendapat perisai sementara ketika berlawan.",
+    "type": "shield"
+  },
+  {
+    "name": "Ali",
+    "icon": "🐯",
+    "role": "Pahlawan Berani",
+    "color": "#fe8d5c",
+    "str": 9,
+    "agi": 8,
+    "power": 5,
+    "skill": "Pusingan Harimau",
+    "desc": "Berputar menyerang semua musuh di kawasan sekitar.",
+    "type": "spin"
+  },
+  {
+    "name": "Maryam",
+    "icon": "🦌",
+    "role": "Penyembuh Rimba",
+    "color": "#7fdcc0",
+    "str": 5,
+    "agi": 7,
+    "power": 10,
+    "skill": "Doa Pemulihan",
+    "desc": "Memulihkan HP sendiri dan tentera rakan sambil menolak musuh.",
+    "type": "heal"
+  },
+  {
+    "name": "Khadeeja",
+    "icon": "🦊",
+    "role": "Pengawal Ais",
+    "color": "#8ac9fc",
+    "str": 7,
+    "agi": 7,
+    "power": 8,
+    "skill": "Ribut Ais",
+    "desc": "Menghujankan serangan ais yang memperlahankan beberapa musuh.",
+    "type": "freeze"
+  },
+  {
+    "name": "Ana",
+    "icon": "🐰",
+    "role": "Pemanah Bintang",
+    "color": "#ffcf8a",
+    "str": 7,
+    "agi": 9,
+    "power": 7,
+    "skill": "Tiga Anak Panah",
+    "desc": "Menembak musuh paling dekat dengan serangan jarak jauh bertubi-tubi.",
+    "type": "arrows"
+  },
+  {
+    "name": "Yusuf",
+    "icon": "🐻",
+    "role": "Penjaga Benteng",
+    "color": "#b4d583",
+    "str": 10,
+    "agi": 5,
+    "power": 7,
+    "skill": "Pecah Benteng",
+    "desc": "Hentaman dahsyat kepada penjaga menara dan semua musuh berdekatan.",
+    "type": "crusher"
+  },
+  {
+    "name": "Jasmin",
+    "icon": "🐱",
+    "role": "Penyihir Pelangi",
+    "color": "#d5a3fb",
+    "str": 5,
+    "agi": 8,
+    "power": 10,
+    "skill": "Meteor Pelangi",
+    "desc": "Meteor meletup di hadapan, mencederakan musuh di kawasan yang luas.",
+    "type": "meteor"
+  }
+]

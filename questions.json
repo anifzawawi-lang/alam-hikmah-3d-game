@@ -1,0 +1,756 @@
+[
+  {
+    "id": 1,
+    "subject": "Al-Quran",
+    "question": "Apakah surah pembuka dalam al-Quran?",
+    "choices": [
+      "Al-Fatihah",
+      "Al-Falaq",
+      "An-Nas",
+      "Al-Ikhlas"
+    ],
+    "correct": 0,
+    "explanation": "Al-Fatihah ialah surah pertama dalam susunan mushaf."
+  },
+  {
+    "id": 2,
+    "subject": "Al-Quran",
+    "question": "Surah al-Ikhlas menegaskan bahawa Allah itu...",
+    "choices": [
+      "Maha Esa",
+      "mempunyai anak",
+      "memerlukan bantuan",
+      "mempunyai sekutu"
+    ],
+    "correct": 0,
+    "explanation": "Surah al-Ikhlas menegaskan keesaan Allah."
+  },
+  {
+    "id": 3,
+    "subject": "Al-Quran",
+    "question": "Berapa ayat dalam surah al-Fatihah?",
+    "choices": [
+      "7",
+      "5",
+      "6",
+      "9"
+    ],
+    "correct": 0,
+    "explanation": "Surah al-Fatihah mengandungi tujuh ayat."
+  },
+  {
+    "id": 4,
+    "subject": "Al-Quran",
+    "question": "Apakah hukum membaca al-Fatihah dalam solat bagi orang yang mampu?",
+    "choices": [
+      "Rukun solat",
+      "Sunat sahaja",
+      "Makruh",
+      "Tidak perlu"
+    ],
+    "correct": 0,
+    "explanation": "Membaca al-Fatihah ialah rukun solat."
+  },
+  {
+    "id": 5,
+    "subject": "Al-Quran",
+    "question": "Apakah amalan baik sebelum membaca al-Quran?",
+    "choices": [
+      "Berwuduk dan beradab",
+      "Bermain-main",
+      "Bergaduh",
+      "Bercakap kuat"
+    ],
+    "correct": 0,
+    "explanation": "Bersuci dan menjaga adab ketika membaca al-Quran merupakan amalan yang baik."
+  },
+  {
+    "id": 6,
+    "subject": "Al-Quran",
+    "question": "Surah apakah yang menyebut manusia lalai kerana berlumba-lumba memperbanyak harta?",
+    "choices": [
+      "At-Takathur",
+      "Al-Fil",
+      "Al-Kafirun",
+      "Al-Masad"
+    ],
+    "correct": 0,
+    "explanation": "Surah at-Takathur mengingatkan manusia tentang kelalaian berlumba-lumba mengumpul dunia."
+  },
+  {
+    "id": 7,
+    "subject": "Feqah",
+    "question": "Berapakah jumlah rakaat solat fardu Zuhur?",
+    "choices": [
+      "4",
+      "2",
+      "3",
+      "5"
+    ],
+    "correct": 0,
+    "explanation": "Solat fardu Zuhur mempunyai empat rakaat."
+  },
+  {
+    "id": 8,
+    "subject": "Feqah",
+    "question": "Apakah yang membatalkan wuduk?",
+    "choices": [
+      "Keluar sesuatu dari qubul atau dubur",
+      "Membaca buku",
+      "Minum air",
+      "Berzikir"
+    ],
+    "correct": 0,
+    "explanation": "Keluar sesuatu daripada qubul atau dubur membatalkan wuduk."
+  },
+  {
+    "id": 9,
+    "subject": "Feqah",
+    "question": "Apakah hukum berpuasa pada bulan Ramadan bagi Muslim yang memenuhi syarat?",
+    "choices": [
+      "Wajib",
+      "Sunat",
+      "Makruh",
+      "Harus"
+    ],
+    "correct": 0,
+    "explanation": "Puasa Ramadan wajib bagi Muslim yang memenuhi syarat."
+  },
+  {
+    "id": 10,
+    "subject": "Feqah",
+    "question": "Apakah niat utama sebelum menunaikan solat?",
+    "choices": [
+      "Berniat kerana Allah",
+      "Supaya dipuji",
+      "Hendak menunjuk-nunjuk",
+      "Supaya cepat selesai"
+    ],
+    "correct": 0,
+    "explanation": "Ibadah dilakukan dengan ikhlas kerana Allah."
+  },
+  {
+    "id": 11,
+    "subject": "Feqah",
+    "question": "Ke arah manakah umat Islam menghadap ketika solat?",
+    "choices": [
+      "Kiblat",
+      "Timur setiap masa",
+      "Bulan",
+      "Matahari"
+    ],
+    "correct": 0,
+    "explanation": "Arah kiblat umat Islam ialah ke Kaabah di Masjidil Haram."
+  },
+  {
+    "id": 12,
+    "subject": "Feqah",
+    "question": "Apakah istilah bagi solat fardu yang dilakukan bersama imam?",
+    "choices": [
+      "Solat berjemaah",
+      "Solat sunat",
+      "Solat jenazah",
+      "Solat qasar"
+    ],
+    "correct": 0,
+    "explanation": "Solat berjemaah dilakukan secara bersama dengan imam dan makmum."
+  },
+  {
+    "id": 13,
+    "subject": "Akhlak",
+    "question": "Apakah tindakan terbaik apabila rakan terjatuh?",
+    "choices": [
+      "Membantu dan bertanya khabar",
+      "Mentertawakan",
+      "Menghina",
+      "Meninggalkannya"
+    ],
+    "correct": 0,
+    "explanation": "Menolong orang lain menunjukkan sifat prihatin."
+  },
+  {
+    "id": 14,
+    "subject": "Akhlak",
+    "question": "Apabila guru sedang mengajar, kita patut...",
+    "choices": [
+      "Mendengar dengan sopan",
+      "Menjerit",
+      "Bermain telefon",
+      "Mengganggu rakan"
+    ],
+    "correct": 0,
+    "explanation": "Menghormati guru termasuk dalam adab menuntut ilmu."
+  },
+  {
+    "id": 15,
+    "subject": "Akhlak",
+    "question": "Apakah sifat yang berlawanan dengan sombong?",
+    "choices": [
+      "Rendah hati",
+      "Dengki",
+      "Riak",
+      "Angkuh"
+    ],
+    "correct": 0,
+    "explanation": "Tawaduk bermaksud merendah diri dan tidak sombong."
+  },
+  {
+    "id": 16,
+    "subject": "Akhlak",
+    "question": "Apakah yang patut dibuat apabila berjanji dengan rakan?",
+    "choices": [
+      "Menepati janji",
+      "Lupa sengaja",
+      "Memungkiri janji",
+      "Menipu"
+    ],
+    "correct": 0,
+    "explanation": "Menepati janji ialah contoh akhlak terpuji."
+  },
+  {
+    "id": 17,
+    "subject": "Akhlak",
+    "question": "Apakah adab ketika bertemu jiran?",
+    "choices": [
+      "Memberi salam dan bertegur sapa",
+      "Mengejek",
+      "Menyakiti",
+      "Membuat bising sengaja"
+    ],
+    "correct": 0,
+    "explanation": "Islam menggalakkan berbuat baik kepada jiran."
+  },
+  {
+    "id": 18,
+    "subject": "Akhlak",
+    "question": "Jika tersalah mengambil barang orang, apa yang patut dibuat?",
+    "choices": [
+      "Pulangkan dan minta maaf",
+      "Sembunyikan",
+      "Buang",
+      "Bohong"
+    ],
+    "correct": 0,
+    "explanation": "Bersikap amanah bermaksud menjaga hak orang lain."
+  },
+  {
+    "id": 19,
+    "subject": "Bahasa Arab",
+    "question": "Apakah maksud perkataan Arab كِتَابٌ (kitābun)?",
+    "choices": [
+      "Buku",
+      "Rumah",
+      "Pintu",
+      "Air"
+    ],
+    "correct": 0,
+    "explanation": "كِتَابٌ bermaksud buku."
+  },
+  {
+    "id": 20,
+    "subject": "Bahasa Arab",
+    "question": "Apakah maksud بَيْتٌ (baytun)?",
+    "choices": [
+      "Rumah",
+      "Sekolah",
+      "Kerusi",
+      "Pensel"
+    ],
+    "correct": 0,
+    "explanation": "بَيْتٌ bermaksud rumah."
+  },
+  {
+    "id": 21,
+    "subject": "Bahasa Arab",
+    "question": "Apakah maksud مَدْرَسَةٌ (madrasatun)?",
+    "choices": [
+      "Sekolah",
+      "Masjid",
+      "Kedai",
+      "Kebun"
+    ],
+    "correct": 0,
+    "explanation": "مَدْرَسَةٌ bermaksud sekolah."
+  },
+  {
+    "id": 22,
+    "subject": "Bahasa Arab",
+    "question": "Apakah maksud مَاءٌ (mā’un)?",
+    "choices": [
+      "Air",
+      "Makanan",
+      "Baju",
+      "Meja"
+    ],
+    "correct": 0,
+    "explanation": "مَاءٌ bermaksud air."
+  },
+  {
+    "id": 23,
+    "subject": "Bahasa Arab",
+    "question": "Apakah bahasa Arab bagi nombor tiga?",
+    "choices": [
+      "ثَلَاثَةٌ",
+      "وَاحِدٌ",
+      "اِثْنَانِ",
+      "خَمْسَةٌ"
+    ],
+    "correct": 0,
+    "explanation": "ثَلَاثَةٌ (thalāthah) bermaksud tiga."
+  },
+  {
+    "id": 24,
+    "subject": "Bahasa Arab",
+    "question": "Apakah maksud قَلَمٌ (qalamun)?",
+    "choices": [
+      "Pen",
+      "Tingkap",
+      "Beg",
+      "Kasut"
+    ],
+    "correct": 0,
+    "explanation": "قَلَمٌ bermaksud pen atau alat tulis."
+  },
+  {
+    "id": 25,
+    "subject": "Tauhid",
+    "question": "Berapakah bilangan rukun iman?",
+    "choices": [
+      "6",
+      "5",
+      "4",
+      "7"
+    ],
+    "correct": 0,
+    "explanation": "Rukun iman ada enam."
+  },
+  {
+    "id": 26,
+    "subject": "Tauhid",
+    "question": "Rukun iman pertama ialah beriman kepada...",
+    "choices": [
+      "Allah",
+      "Malaikat",
+      "Kitab",
+      "Hari kiamat"
+    ],
+    "correct": 0,
+    "explanation": "Rukun iman pertama ialah beriman kepada Allah."
+  },
+  {
+    "id": 27,
+    "subject": "Tauhid",
+    "question": "Allah bersifat Al-Baqa’. Apakah maksudnya?",
+    "choices": [
+      "Kekal",
+      "Lemah",
+      "Baharu",
+      "Memerlukan tempat"
+    ],
+    "correct": 0,
+    "explanation": "Al-Baqa’ bermaksud Allah kekal."
+  },
+  {
+    "id": 28,
+    "subject": "Tauhid",
+    "question": "Siapakah rasul terakhir?",
+    "choices": [
+      "Nabi Muhammad SAW",
+      "Nabi Musa AS",
+      "Nabi Ibrahim AS",
+      "Nabi Adam AS"
+    ],
+    "correct": 0,
+    "explanation": "Nabi Muhammad SAW ialah nabi dan rasul terakhir."
+  },
+  {
+    "id": 29,
+    "subject": "Tauhid",
+    "question": "Apakah maksud beriman kepada hari akhirat?",
+    "choices": [
+      "Meyakini hari pembalasan",
+      "Tidak percaya syurga",
+      "Hanya percaya dunia",
+      "Tidak perlu beramal"
+    ],
+    "correct": 0,
+    "explanation": "Beriman kepada hari akhirat termasuk meyakini kebangkitan dan pembalasan."
+  },
+  {
+    "id": 30,
+    "subject": "Tauhid",
+    "question": "Berapakah bilangan rukun Islam?",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "4"
+    ],
+    "correct": 0,
+    "explanation": "Rukun Islam ada lima."
+  },
+  {
+    "id": 31,
+    "subject": "Jawi",
+    "question": "Apakah bacaan tulisan Jawi ini: کتاب ?",
+    "choices": [
+      "Kitab",
+      "Katil",
+      "Ketupat",
+      "Kebun"
+    ],
+    "correct": 0,
+    "explanation": "کتاب dibaca kitab."
+  },
+  {
+    "id": 32,
+    "subject": "Jawi",
+    "question": "Apakah bacaan tulisan Jawi ini: مسجد ?",
+    "choices": [
+      "Masjid",
+      "Murid",
+      "Majlis",
+      "Maksud"
+    ],
+    "correct": 0,
+    "explanation": "مسجد dibaca masjid."
+  },
+  {
+    "id": 33,
+    "subject": "Jawi",
+    "question": "Apakah bacaan tulisan Jawi ini: علمو ?",
+    "choices": [
+      "Ilmu",
+      "Alam",
+      "Amal",
+      "Ulama"
+    ],
+    "correct": 0,
+    "explanation": "علمو ialah ejaan Jawi bagi ilmu."
+  },
+  {
+    "id": 34,
+    "subject": "Jawi",
+    "question": "Apakah bacaan tulisan Jawi ini: سکوله ?",
+    "choices": [
+      "Sekolah",
+      "Seluar",
+      "Sejarah",
+      "Sahabat"
+    ],
+    "correct": 0,
+    "explanation": "سکوله ialah ejaan Jawi bagi sekolah."
+  },
+  {
+    "id": 35,
+    "subject": "Jawi",
+    "question": "Apakah bacaan tulisan Jawi ini: بوکو ?",
+    "choices": [
+      "Buku",
+      "Buka",
+      "Beku",
+      "Baku"
+    ],
+    "correct": 0,
+    "explanation": "بوکو ialah ejaan Jawi bagi buku."
+  },
+  {
+    "id": 36,
+    "subject": "Jawi",
+    "question": "Apakah bacaan tulisan Jawi ini: باجو ?",
+    "choices": [
+      "Baju",
+      "Biji",
+      "Baja",
+      "Baju kurung sahaja"
+    ],
+    "correct": 0,
+    "explanation": "باجو dibaca baju."
+  },
+  {
+    "id": 37,
+    "subject": "Hadis",
+    "question": "Apakah pengajaran hadis tentang memuliakan tetamu?",
+    "choices": [
+      "Melayani tetamu dengan baik",
+      "Menghalau tetamu",
+      "Tidak memberi salam",
+      "Memalukan tetamu"
+    ],
+    "correct": 0,
+    "explanation": "Hadis menggalakkan orang beriman memuliakan tetamu."
+  },
+  {
+    "id": 38,
+    "subject": "Hadis",
+    "question": "Hadis Nabi SAW mengajar supaya kita berkata...",
+    "choices": [
+      "Baik atau diam",
+      "Apa sahaja tanpa fikir",
+      "Kasar sahaja",
+      "Palsu sahaja"
+    ],
+    "correct": 0,
+    "explanation": "Antara ajaran hadis ialah berkata baik atau diam."
+  },
+  {
+    "id": 39,
+    "subject": "Hadis",
+    "question": "Apakah maksud menjaga kebersihan dalam kehidupan Muslim?",
+    "choices": [
+      "Menjaga diri dan persekitaran",
+      "Membuang sampah merata",
+      "Mengotorkan masjid",
+      "Tidak membasuh tangan"
+    ],
+    "correct": 0,
+    "explanation": "Menjaga kebersihan ialah sebahagian amalan hidup yang baik."
+  },
+  {
+    "id": 40,
+    "subject": "Hadis",
+    "question": "Bagaimanakah kita menunjukkan kasih sayang kepada yang lebih muda?",
+    "choices": [
+      "Melayan dengan belas kasihan",
+      "Membuli",
+      "Mengugut",
+      "Menghina"
+    ],
+    "correct": 0,
+    "explanation": "Hadis mengajar kita bersifat penyayang."
+  },
+  {
+    "id": 41,
+    "subject": "Hadis",
+    "question": "Apakah tindakan baik apabila melihat orang memerlukan pertolongan?",
+    "choices": [
+      "Membantu mengikut kemampuan",
+      "Berpaling selalu",
+      "Mentertawakan",
+      "Menyusahkan lagi"
+    ],
+    "correct": 0,
+    "explanation": "Menolong orang lain ialah akhlak yang digalakkan."
+  },
+  {
+    "id": 42,
+    "subject": "Hadis",
+    "question": "Kepada siapakah kita boleh menunjukkan senyuman sebagai kebaikan?",
+    "choices": [
+      "Orang lain",
+      "Diri sendiri sahaja",
+      "Orang kaya sahaja",
+      "Kawan sekelas sahaja"
+    ],
+    "correct": 0,
+    "explanation": "Bermanis muka dan berbuat baik kepada orang lain dituntut."
+  },
+  {
+    "id": 43,
+    "subject": "Tafsir",
+    "question": "Apakah tema utama surah al-Asr?",
+    "choices": [
+      "Kepentingan masa, iman dan amal soleh",
+      "Kisah peperangan",
+      "Nama haiwan",
+      "Cara berniaga"
+    ],
+    "correct": 0,
+    "explanation": "Al-Asr mengingatkan manusia tentang masa, iman, amal soleh dan saling menasihati."
+  },
+  {
+    "id": 44,
+    "subject": "Tafsir",
+    "question": "Apakah pengajaran surah at-Takathur?",
+    "choices": [
+      "Jangan lalai mengejar kemewahan",
+      "Kita mesti sombong",
+      "Harta sentiasa paling utama",
+      "Tidak perlu bersyukur"
+    ],
+    "correct": 0,
+    "explanation": "At-Takathur menegur kelalaian kerana bermegah-megah dengan keduniaan."
+  },
+  {
+    "id": 45,
+    "subject": "Tafsir",
+    "question": "Apakah mesej utama surah al-Ikhlas?",
+    "choices": [
+      "Allah Maha Esa",
+      "Allah mempunyai sekutu",
+      "Manusia tidak perlu berdoa",
+      "Boleh menyembah apa sahaja"
+    ],
+    "correct": 0,
+    "explanation": "Surah al-Ikhlas mengajar tauhid yang murni."
+  },
+  {
+    "id": 46,
+    "subject": "Tafsir",
+    "question": "Apakah yang ditekankan dalam surah al-Falaq?",
+    "choices": [
+      "Memohon perlindungan kepada Allah",
+      "Berlumba menjadi kaya",
+      "Tidur sepanjang hari",
+      "Menghina orang"
+    ],
+    "correct": 0,
+    "explanation": "Surah al-Falaq mengajar kita berlindung kepada Allah daripada kejahatan."
+  },
+  {
+    "id": 47,
+    "subject": "Tafsir",
+    "question": "Surah an-Nas mengajar kita memohon perlindungan daripada...",
+    "choices": [
+      "Bisikan kejahatan",
+      "Hujan",
+      "Makanan",
+      "Ilmu"
+    ],
+    "correct": 0,
+    "explanation": "Surah an-Nas memohon perlindungan Allah daripada bisikan syaitan."
+  },
+  {
+    "id": 48,
+    "subject": "Tafsir",
+    "question": "Apakah maksud al-Fatihah secara umum?",
+    "choices": [
+      "Pembukaan",
+      "Penutup",
+      "Pertengahan",
+      "Pengakhiran"
+    ],
+    "correct": 0,
+    "explanation": "Al-Fatihah bermaksud pembukaan."
+  },
+  {
+    "id": 49,
+    "subject": "Sirah / KAFA",
+    "question": "Di manakah Nabi Muhammad SAW dilahirkan?",
+    "choices": [
+      "Makkah",
+      "Madinah",
+      "Taif",
+      "Baitulmaqdis"
+    ],
+    "correct": 0,
+    "explanation": "Nabi Muhammad SAW dilahirkan di Makkah."
+  },
+  {
+    "id": 50,
+    "subject": "Sirah / KAFA",
+    "question": "Siapakah nama ibu Nabi Muhammad SAW?",
+    "choices": [
+      "Aminah binti Wahab",
+      "Khadijah binti Khuwailid",
+      "Halimah as-Sa‘diyah",
+      "Aisyah binti Abu Bakar"
+    ],
+    "correct": 0,
+    "explanation": "Ibu kandung Nabi Muhammad SAW ialah Aminah binti Wahab."
+  },
+  {
+    "id": 51,
+    "subject": "Sirah / KAFA",
+    "question": "Ke manakah Nabi Muhammad SAW berhijrah dari Makkah?",
+    "choices": [
+      "Madinah",
+      "Yaman",
+      "Syam",
+      "Habsyah"
+    ],
+    "correct": 0,
+    "explanation": "Peristiwa hijrah Rasulullah SAW adalah dari Makkah ke Madinah."
+  },
+  {
+    "id": 52,
+    "subject": "Sirah / KAFA",
+    "question": "Siapakah isteri pertama Nabi Muhammad SAW?",
+    "choices": [
+      "Khadijah RA",
+      "Aisyah RA",
+      "Hafsah RA",
+      "Ummu Salamah RA"
+    ],
+    "correct": 0,
+    "explanation": "Saidatina Khadijah RA ialah isteri pertama baginda."
+  },
+  {
+    "id": 53,
+    "subject": "Sirah / KAFA",
+    "question": "Apakah gelaran Nabi Muhammad SAW yang bermaksud orang dipercayai?",
+    "choices": [
+      "Al-Amin",
+      "Al-Faruq",
+      "As-Siddiq",
+      "Zunnurain"
+    ],
+    "correct": 0,
+    "explanation": "Al-Amin bermaksud yang dipercayai."
+  },
+  {
+    "id": 54,
+    "subject": "Sirah / KAFA",
+    "question": "Kitab suci umat Islam ialah...",
+    "choices": [
+      "Al-Quran",
+      "Injil",
+      "Taurat",
+      "Zabur"
+    ],
+    "correct": 0,
+    "explanation": "Al-Quran diturunkan kepada Nabi Muhammad SAW."
+  },
+  {
+    "id": 55,
+    "subject": "Feqah",
+    "question": "Apakah maksud istinjak?",
+    "choices": [
+      "Membersihkan qubul atau dubur daripada najis",
+      "Membaca doa tidur",
+      "Makan dengan tangan kanan",
+      "Membaca azan"
+    ],
+    "correct": 0,
+    "explanation": "Istinjak ialah membersihkan qubul atau dubur daripada najis."
+  },
+  {
+    "id": 56,
+    "subject": "Bahasa Arab",
+    "question": "Apakah maksud بَابٌ (bābun)?",
+    "choices": [
+      "Pintu",
+      "Kasut",
+      "Buku",
+      "Bulan"
+    ],
+    "correct": 0,
+    "explanation": "بَابٌ bermaksud pintu."
+  },
+  {
+    "id": 57,
+    "subject": "Tauhid",
+    "question": "Malaikat manakah yang menyampaikan wahyu kepada para rasul?",
+    "choices": [
+      "Jibril AS",
+      "Mikail AS",
+      "Israfil AS",
+      "Malik AS"
+    ],
+    "correct": 0,
+    "explanation": "Antara tugas Malaikat Jibril AS ialah menyampaikan wahyu."
+  },
+  {
+    "id": 58,
+    "subject": "Akhlak",
+    "question": "Apakah adab apabila masuk ke masjid?",
+    "choices": [
+      "Menjaga kebersihan dan ketenteraman",
+      "Bermain bola",
+      "Membuat bising",
+      "Mencemarkan lantai"
+    ],
+    "correct": 0,
+    "explanation": "Memelihara kebersihan dan ketenteraman masjid ialah adab yang baik."
+  }
+]

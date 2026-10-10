@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ms">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#121d35">
+  <meta name="description" content="Alam Hikmah 3D – pengembaraan kooperatif 10 pemain sambil belajar KAFA Darjah 4.">
+  <title>Alam Hikmah 3D | Arena KAFA Multiplayer</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div id="home" class="home">
+    <div class="home-grid">
+      <section class="welcome">
+        <div class="brand"><span class="brand-icon">✦</span> ALAM HIKMAH <span class="brand-3d">3D</span></div>
+        <div class="eyebrow">⚔️ CO-OP ADVENTURE · 10 HERO · 9 SUBJEK KAFA</div>
+        <h1>Dunia hebat.<br><span>Kuasa ilmu.</span></h1>
+        <p>Masuki dunia fantasi berkotak ala permainan sandbox! Jelajah hutan, bertarung dengan makhluk kabus, bekerjasama menjawab soalan KAFA Darjah 4 dan selamatkan Kristal Hikmah.</p>
+        <div class="feature-line">
+          <span>🎮 3D BLOCK WORLD</span><span>👥 1–10 PEMAIN</span><span>📚 58 SOALAN</span><span>🏰 CO-OP BOSS</span>
+        </div>
+        <div class="world-preview" aria-hidden="true">
+          <div class="sun"></div><div class="cloud one"></div><div class="cloud two"></div>
+          <div class="mountain back"></div><div class="mountain front"></div>
+          <div class="block-floor"></div>
+          <div class="preview-portal"><span>📖</span></div>
+          <div class="preview-hero h1">🦉</div><div class="preview-hero h2">🦁</div><div class="preview-hero h3">🦄</div>
+          <div class="preview-message">SELAMATKAN KRISTAL HIKMAH!</div>
+        </div>
+        <div class="guide-box"><strong>🎯 Misi pasukan</strong><span>Aktifkan <b>3 Gerbang Ilmu</b> dengan menjawab kuiz · Kumpul XP melalui pertempuran · Semua hero bekerjasama menewaskan <b>Raja Kabus</b>!</span></div>
+      </section>
+      <section class="setup glass">
+        <div class="setup-header"><h2>Pilih hero kamu</h2><span class="counter">10 WATAK</span></div>
+        <div id="hero-grid" class="hero-grid"></div>
+        <div id="hero-detail" class="hero-detail"></div>
+        <div class="divider"></div>
+        <h3>Masuk dunia</h3>
+        <div class="room-controls">
+          <button id="create" class="btn primary">✦ CIPTA BILIK BARU <small>Jadi hos · dapatkan kod bilik</small></button>
+          <label for="room-code">Atau sertai bilik rakan</label>
+          <div id="invitation-hint" class="invitation-hint hidden">🔗 Pautan jemputan dikesan! Pilih hero dan tekan SERTAI.</div>
+          <div class="join-row"><input id="room-code" maxlength="5" placeholder="KOD 5 AKSARA" autocapitalize="characters" autocomplete="off" spellcheck="false" aria-label="Kod bilik"><button id="join" class="btn join">SERTAI ➜</button></div>
+        </div>
+        <p id="home-error" class="home-error" role="alert"></p>
+        <div class="small-note">Cipta bilik, kemudian tekan 🔗 JEMPUT KAWAN untuk kongsi pautan. Semua pemain boleh sertai dari telefon masing-masing melalui website yang sama. Tidak perlu akaun atau pendaftaran. Bilik aktif selagi sekurang-kurangnya seorang pemain masih bersambung.</div>
+      </section>
+    </div>
+    <footer>ALAM HIKMAH 3D · PROTOTAIP PENDIDIKAN · SOALAN CONTOH KAFA TAHUN 4</footer>
+  </div>
+  <div id="game" class="game hidden">
+    <header class="topbar">
+      <div class="top-brand">✦ <strong>ALAM HIKMAH</strong><span>3D</span></div>
+      <div class="room-pill"><span>🏠 BILIK</span> <strong id="room-display">-----</strong><button id="copy-room" aria-label="Salin kod bilik" title="Salin kod">⧉</button></div>
+      <div class="room-pill"><span>👥 PEMAIN</span><strong id="player-count">1/10</strong></div>
+      <button class="share-invite" id="share-invite" title="Kongsi pautan jemputan ke WhatsApp atau aplikasi lain">🔗 <span>JEMPUT KAWAN</span></button>
+      <button class="leave" id="leave">Keluar ↗</button>
+    </header>
+    <main class="play-area">
+      <canvas id="world" aria-label="Dunia permainan 3D"></canvas>
+      <div id="labels" class="labels" aria-hidden="true"></div>
+      <div class="hud hud-left">
+        <div class="hud-hero"><div id="my-icon" class="hud-icon">🦉</div><div><div id="my-name" class="hud-name">Atiqah</div><div class="hud-level" id="my-level">LEVEL 1</div></div><div class="stars" id="my-stars">⭐ 0</div></div>
+        <div class="bar-label"><span>❤️ NYAWA</span><b id="hp-text">100/100</b></div><div class="bar-track"><div id="hp-bar" class="bar-hp"></div></div>
+        <div class="bar-label"><span>✨ XP</span><b id="xp-text">0/165</b></div><div class="bar-track xp"><div id="xp-bar" class="bar-xp"></div></div>
+        <div id="respawn-tip" class="respawn-tip hidden">💫 Hero sedang berehat…</div>
+      </div>
+      <div class="hud hud-right"><div class="hud-title">📚 GERBANG ILMU <span id="progress">0/3</span></div><div id="portal-list" class="portal-list"></div><div class="boss-line">🏰 RAJA KABUS <span id="boss-hp">🔒 KEBAL</span></div><div class="boss-track"><div id="boss-bar"></div></div></div>
+      <div class="hud hud-score"><div class="hud-title">🏆 PASUKAN <span id="score-count">1/10</span></div><div id="scoreboard"></div></div>
+      <div id="compass" class="compass">↑ UTARA · ISTANA RAJA KABUS</div>
+      <div id="toast" class="toast" role="status"></div>
+      <div class="control-help">WASD / anak panah: bergerak &nbsp;·&nbsp; J / SPACE: serang &nbsp;·&nbsp; K: kuasa &nbsp;·&nbsp; E: kuiz</div>
+      <div class="mobile-controls">
+        <div class="dpad" aria-label="Kawalan bergerak"><button class="dpad-btn up" data-key="up" aria-label="Maju">▲</button><button class="dpad-btn left" data-key="left" aria-label="Kiri">◀</button><button class="dpad-btn down" data-key="down" aria-label="Undur">▼</button><button class="dpad-btn right" data-key="right" aria-label="Kanan">▶</button></div>
+        <div class="action-buttons"><button id="attack" class="attack">⚔️<span>SERANG</span></button><button id="skill" class="skill">✨<span id="skill-label">SKILL</span></button><button id="interact" class="interact">📖<span>QUIZ</span></button></div>
+      </div>
+    </main>
+  </div>
+  <div id="quiz-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="question">
+    <div class="quiz-card"><div class="quiz-top"><span class="category" id="category">FEQAH</span><span id="portal-name">GERBANG ILMU</span></div><div class="quiz-spark">📚 ✦</div><h2 id="question">Soalan akan dipaparkan di sini</h2><p class="quiz-caption">Pilih jawapan yang paling tepat. Jika salah, baca penerangan dan cuba lagi!</p><div id="answers" class="answers"></div><div id="answer-feedback" class="answer-feedback hidden"></div><button id="close-quiz" class="btn primary hidden">SAMBUNG PENGEMBARAAN ➜</button></div>
+  </div>
+  <div id="victory-modal" class="modal hidden"><div class="victory-card"><div class="victory-art">🏆</div><p class="eyebrow">MISI PASUKAN SELESAI</p><h2>KRISTAL HIKMAH DISELAMATKAN!</h2><p>Semua hero berjaya menewaskan Raja Kabus dengan ilmu dan kerjasama.</p><div id="victory-scores"></div><button id="victory-home" class="btn primary">MAIN LAGI · BILIK BAHARU</button></div></div>
+  <script src="/game.js" defer></script>
+</body>
+</html>
